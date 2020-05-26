@@ -39,6 +39,7 @@ raise "Bad parent=!" unless n2.children == [n3]
 
 // this probably doesn't
 raise "Bad parent=!" unless n1.children == []
+
 In addition to (1) re-assigning the parent attribute of the child and (2) adding it to the new parent's array of children, we should also remove the child from the old parent's list of children (if the old parent isn't nil). Modify your #parent= method to do this.
 
 Make sure all the #parent= specs pass before proceeding!
