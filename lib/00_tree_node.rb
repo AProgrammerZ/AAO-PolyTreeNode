@@ -8,7 +8,7 @@ class PolyTreeNode
     end
 
     def parent=(value)
-        # @parent.children.delete(self)
+        @parent.children.delete(self) unless @parent == nil
         @parent = value
         @parent.children << self unless value == nil
     end
