@@ -1,5 +1,5 @@
 # Intro Algorithms and Data Structures
-If you need a refresher on algorithms and data structures, refer to the reading!
+If you need a refresher on algorithms and data structures, refer to the [reading](https://open.appacademy.io/learn/full-stack-online/ruby/intro-to-algorithms-and-data-structures)!
 
 ## Learning Goals
 - Know how to implement a polytree using polytree nodes
