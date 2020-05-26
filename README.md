@@ -28,16 +28,16 @@ n1 = PolyTreeNode.new("root1")
 n2 = PolyTreeNode.new("root2")
 n3 = PolyTreeNode.new("root3")
 
-# connect n3 to n1
+// connect n3 to n1
 n3.parent = n1
-# connect n3 to n2
+// connect n3 to n2
 n3.parent = n2
 
-# this should work
+// this should work
 raise "Bad parent=!" unless n3.parent == n2
 raise "Bad parent=!" unless n2.children == [n3]
 
-# this probably doesn't
+// this probably doesn't
 raise "Bad parent=!" unless n1.children == []
 In addition to (1) re-assigning the parent attribute of the child and (2) adding it to the new parent's array of children, we should also remove the child from the old parent's list of children (if the old parent isn't nil). Modify your #parent= method to do this.
 
