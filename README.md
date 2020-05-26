@@ -58,7 +58,7 @@ Write add_child(child_node) and remove_child(child_node) methods. These methods 
   - First, insert the current node (self) into the queue.
   - Then, in a loop that runs until the array is empty:
     - Remove the first node from the queue,
-    = Check its value,
+    - Check its value,
     - Push the node's children to the end of the array.
 - Prove to yourself that this will check the nodes in the right order. Draw it out. Show this explanation to your TA.
 - Get your TA to check your work!
