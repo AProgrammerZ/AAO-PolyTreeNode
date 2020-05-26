@@ -66,5 +66,7 @@ Write add_child(child_node) and remove_child(child_node) methods. These methods 
 
 ## References
 [Overriding inspect](https://open.appacademy.io/learn/full-stack-online/ruby/inspecting-complex-elements)
+
 Wikipedia: [Data structure](http://en.wikipedia.org/wiki/Data_structure)
+
 Wikipedia: [Algorithm](http://en.wikipedia.org/wiki/Algorithm)
