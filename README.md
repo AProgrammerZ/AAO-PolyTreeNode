@@ -1,3 +1,6 @@
+(Solutions to all AAO projects are usually given).
+
+
 # Intro Algorithms and Data Structures
 If you need a refresher on algorithms and data structures, refer to the [reading](https://open.appacademy.io/learn/full-stack-online/ruby/intro-to-algorithms-and-data-structures)!
 
